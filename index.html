@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/logo-img.svg">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Capture Pro - Frontend Project</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav>
+      <a href="/index.html" class="nav__logo"><img id="logo" src="/assets/logo.svg" alt=""></a>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#about">About us</a></li>
+        <li class="link"><a href="#mission">Our Mission</a></li>
+        <li class="link"><a href="#top">Top Photographers</a></li>
+      </ul>
+      <a href="#contact"><button class="btn-contact">Contact</button></a>
+    </nav>
+
+    <!--Header-->
+    <header class="banner">
+      <div class="section__container header__container"></div>
+        <div class="content">
+        <h1 class="section__header">Capture<span>Pro</span></h1>
+        <p class="section__description"> is a premier online destination for photography enthusiasts and professionals.</p>
+        <button class="btn">Explore Now</button>
+      </div>
+      </div>
+    </header>
+    
+    <!--About-->
+    <section id="about" class="section__container plan__container">
+      <p class="subheader">Welcome to Capture Pro!</p>
+      <h2 class="section__header">Discover the world of photography</h2>
+      <p class="description">
+        At Capture Pro, we are passionate about empowering photographers of all levels to explore their creativity and unleash their full potential. With our wide range of high-quality cameras, lenses, and accessories, we are your ultimate destination for all things photography.
+      </p>
+      <div class="plan__grid">
+        <div class="plan__content">
+          <span class="number">01</span>
+          <h4>Extensive Selection</h4>
+          <p>
+            Discover a vast collection of cameras, lenses, and accessories from leading brands. Whether you're a beginner looking to take your first steps in photography or an experienced professional seeking advanced gear, we have the perfect equipment to meet your needs.
+          </p>
+          <span class="number">02</span>
+          <h4>Exceptional Quality</h4>
+          <p>
+            We are committed to delivering excellence. All our products undergo strict quality control measures to ensure they meet the highest standards. Experience the difference with our top-notch equipment that produces stunning results.
+          </p>
+          <span class="number">03</span>
+          <h4>Expert Guidance</h4>
+          <p>
+            Our team of photography enthusiasts is here to support you on your creative journey. Whether you need advice on choosing the right camera or tips for enhancing your photography skills, we're dedicated to providing expert guidance every step of the way.
+          </p>
+        </div>
+        <div class="plan__image">
+          <img src="assets/plan-1.jpg" alt="plan" />
+          <img src="assets/plan-2.jpg" alt="plan" />
+          <img src="assets/plan-3.jpg" alt="plan" />
+        </div>
+      </div>
+    </section>
+
+    <section class="memories" id="mission">
+      <div class="section__container memories__container">
+        <div class="memories__header">
+          <h2 class="section__header">
+            Our Mission
+          </h2>
+        </div>
+        <div class="memories__grid">
+          <div class="memories__card">
+            <img src="assets/memories-1.jpg" alt="">
+            <h4>Unlock Limitless Creativity</h4>
+            <p>
+              Our cameras offer cutting-edge technology and advanced features that allow you to express your creativity and capture the world from unique perspectives. 
+            </p>
+          </div>
+          <div class="memories__card">
+            <img src="assets/memories-2.jpg" alt="">
+            <h4>Quality that preserves every detail</h4>
+            <p>
+              We believe that your family memories should not only be preserved, but also radiate with vibrancy and authenticity. </p>
+          </div>
+          <div class="memories__card">
+            <img src="assets/memories-3.jpg" alt="">
+            <h4>Reliable and Trustworthy</h4>
+            <p>
+              When it comes to choosing a camera, trust is paramount. Our cameras are built to withstand the demands of travel and provide consistent performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expansion-panel">
+      <div class="panel">
+        <div class="panel-heading" onclick="togglePanel(1)">
+          <h3>Preserving Memories</h3>
+          <span>&#x25BC;</span>
+        </div>
+        <div class="panel-content">
+          <p>At Capture Pro, we understand the importance of preserving your precious memories. Our high-quality cameras ensure that every moment is captured with clarity and precision. Whether it's a family gathering, a special event, or a scenic view, our cameras will help you preserve those memories for a lifetime.</p>
+        </div>
+      </div>
+    
+      <div class="panel">
+        <div class="panel-heading" onclick="togglePanel(2)">
+          <h3>The Benefits of a Good Camera</h3>
+          <span>&#x25BC;</span>
+        </div>
+        <div class="panel-content">
+          <p>Investing in a good camera is essential for any photography enthusiast. With Capture Pro, you can enjoy the benefits of advanced features, superior image quality, and greater control over your photographs. Our cameras are designed to enhance your photography skills and unlock your creative potential, allowing you to capture stunning images like a professional.</p>
+        </div>
+      </div>
+    
+      <div class="panel">
+        <div class="panel-heading" onclick="togglePanel(3)">
+          <h3>Trustworthy Store</h3>
+          <span>&#x25BC;</span>
+        </div>
+        <div class="panel-content">
+          <p>When it comes to purchasing a camera, trust is crucial. At Capture Pro, we are committed to providing a reliable and trustworthy shopping experience. Our store offers a wide selection of genuine cameras from reputable brands. We prioritize customer satisfaction and ensure that every purchase is backed by excellent customer support and warranty options. Shop with confidence at Capture Pro!</p>
+        </div>
+      </div>
+    
+    </section>
+
+    <section class="section__container travellers__container" id="top">
+      <h2 class="section__header">Top Photographers</h2>
+      <div class="travellers__grid">
+        <div class="travellers__card">
+          <img src="assets/traveller-1.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/client-1.jpg" alt="client" />
+            <h4>Emma Thompson</h4>
+            <p>Tokyo</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/traveller-2.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/client-2.jpg" alt="client" />
+            <h4>Benjamin Mitchell</h4>
+            <p>Nairobi</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/traveller-3.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/client-3.jpg" alt="client" />
+            <h4>Sophia Williams</h4>
+            <p>Auckland</p>
+          </div>
+        </div>
+        <div class="travellers__card">
+          <img src="assets/traveller-4.jpg" alt="traveller" />
+          <div class="travellers__card__content">
+            <img src="assets/client-4.jpg" alt="client" />
+            <h4>Ethan Parker</h4>
+            <p>Malaysia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="form-container" id="contact">
+  <h3>Contact us</h3>
+    <div class="contact">
+            <div class="left">
+            <form action="https://plugocore.com" method="GET">
+                <label for="fullname">Full Name: </label>
+                <input type="text" name="fullname" maxlength="20" placeholder="Full name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" required/>
+                <br>
+                <label for="title">Title:</label>
+                <input type="title" name="title" placeholder="Title" required/>
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message-container" cols="20" rows="5" placeholder="Leave here your message for us"></textarea>
+                <br>
+                <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">I accept the terms and conditions of the service.</label>
+                <br>
+                <input type="submit" value="Submit" class="btn"/>
+            </form>
+        </div>
+        <div class="right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.47786854178!2d2.0577875139761206!3d41.39276734339323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2964a66e581%3A0x7b2540122941b2ce!2sNost%C3%A0lgic!5e0!3m2!1ses!2ses!4v1689518318316!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+        </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h3>
+            Capture Pro</h3>
+          <p>
+            Capture Pro brings you exceptional camera equipment and services for capturing unforgettable moments.
+          </p>
+          <p>
+            From cutting-edge technology to expert guidance, we empower photographers of all levels to unleash their creativity and achieve stunning results. 
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>INFORMATION</h4>
+          <p>Home</p>
+          <p>About us</p>
+          <p>Our Mission</p>
+          <p>Top Photographers</p>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT</h4>
+          <p>Support</p>
+          <p>Media</p>
+          <p>Socials</p>
+        </div>
+      </div>
+      <div class="section__container footer__bar">
+        <p>Copyright © 2023 Manuela Chamoso. All rights reserved.</p>
+        <div class="socials">
+          <a href="https://facebook.com"><span><i class="ri-facebook-fill"></i></span></a>
+          <a href="https://twitter.com"><span><i class="ri-twitter-fill"></i></span></a>
+          <a href="https://instagram.com"><span><i class="ri-instagram-line"></i></span></a>
+          <a href="https://youtube.com"><span><i class="ri-youtube-fill"></i></span></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
