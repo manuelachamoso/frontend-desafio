@@ -1,6 +1,6 @@
 # Capture Pro Project
 
-This project is part of a frontend project developed for a job interview at PlugCore (https://plugcore.com/). The website is fully responsive, ensuring a seamless viewing experience across different devices and screen sizes. Whether you access the website from a desktop computer, laptop, tablet, or smartphone, the content and layout will adapt to provide optimal usability and readability. The goal of the project was to create a responsive website for photography enthusiasts and professionals using HTML, CSS, and JavaScript. 
+This project is part of a frontend project developed for a job interview. The website is fully responsive, ensuring a seamless viewing experience across different devices and screen sizes. Whether you access the website from a desktop computer, laptop, tablet, or smartphone, the content and layout will adapt to provide optimal usability and readability. The goal of the project was to create a responsive website for photography enthusiasts and professionals using HTML, CSS, and JavaScript. 
 
 You can visit the live version of the website at https://capturepro.vercel.app/. Please note that the live version may have additional features or updates compared to the provided code.
 
